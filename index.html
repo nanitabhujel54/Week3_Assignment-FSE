@@ -32,16 +32,10 @@
     <hr>
 
     <div>
-        <p>This is <b>bold text.</b></p>
-        <p>This is <strong>important text.</strong></p>
-        <p>This is <i> italic text.</i></p>
-        <br><br>
-        <p>This is <u>underline text.</u></p>
-        <p>This is <mark>highlighted text.</mark></p>
-        <p>This is <small>small text.</small></p>
-        <p>This is <del>delete text.</del></p>
-        <p>H<sub>2</sub>O</sub></p>
-        <p>X<sup>2</sup></p>
+        <p>This is <b>bold text.</b><br>This is <strong>important text.</strong><br>This is <i> italic text.</i></p>
+        <p>This is <u>underline text.</u><br>This is <mark>highlighted text.</mark><br>This is <small>small text.</small><br>This is <del>delete text.</del>
+        <br>H<sub>2</sub>O</sub><br>X<sup>2</sup></p>
+    
     </div>
     <div>
         <h2>Images</h2>
@@ -124,27 +118,92 @@
         <h2>Student Registration Form</h2>
 
         <label for="fullname">Name:</label>
-        <input type="text" id="fullname" name="name">
+        <input type="text" id="fullname" name="name"><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email"><br><br>
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password"><br><br>
 
         <label for="age">Age:</label>
-        <input text="number" id="age" name="age">
+        <input type="number" id="age" name="age"><br><br>
 
         <label for="date">Date of Birth:</label>
-        <input text="date" id="date" name="date">
+        <input type="date" id="date" name="date"><br><br>
+
+        <label >Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender"><br><br>
+
+        <label for="skill">Skills:</label>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="sub" >
+
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" >
+
+        <label for="js">JavaScript</label>
+        <input type="checkbox" id="js" ><br><br>
+        <label>Choose Course:</label>
+        <select >
+            <option value="course"> Select Course</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select><br><br>
+        <label for="msg">Message:</label><br>
+        <textarea name="message" id="msg" 
+        rows="10" cols="80"></textarea><br><br>
         
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="Submit" value="Submit">
+        <input type="submit" value="Reset">
     </div>
+    <div>
+        <h2>Quatation</h2>
+        <blockquote>The best way to learn programming is by writing code.</blockquote>
+        <p>someone said: <q>Practice makes perfect.</q></p>
+    </div>
+    <div>
+        <h2>Code Example</h2>
+        <p>Example of an HTML tag:</p>
+        <code>&lt;p&gt;Hello World&lt;/p&gt;</code>
+            <pre>   
+                This is
+                preformatted
+                text.
+            </pre>
+        </p>
+    </div>
+    <div>
+        <h2>Audio</h2>
+        <audio src="Audio.mp3" alt="music" controls></audio>
 
-    
+        <h2>Video</h2>
+        <video src="video.mp4"  alt="video" controls width="250" height="200"></video>
+    </div>
+    <div>
+        <h2>Details and Summary</h2>
 
+<details>
+    <summary>Click to learn about HTML</summary>
 
+</details>
+<p>HTML stands for HyperText Markup Language.
+    It is used to structure content on web pages.
+    </p>
 
-
+<footer>
+    <p>&copy; 2026 My HTML Practical Page</p>
+    <p>Created for HTML practice.</p>
+</footer>
+    </div>
 
 </body>
 </html>
