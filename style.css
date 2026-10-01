@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#nav{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+ul{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin:2px;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+
+li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.h1{
+    text-align: center;
+    margin:40px;
+}
+.section{
+    display: flex;
+    margin:30px;
+    justify-content: center;
+    align-items: center;
+    margin:50px;
+
+}
+.card{
+    border-radius: 10px;
+    height:240px;
+    width:240px;
+    border:2px solid black; 
+    margin:15px;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px ;
+    text-align: center;
+}
+p{
+    padding: 20px;
+}
+
+button{
+    padding:5px;
+    text-align: center;   
+   
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:40px;
+    margin:2px;
+}
+
